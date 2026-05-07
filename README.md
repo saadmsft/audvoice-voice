@@ -3,6 +3,12 @@
   &nbsp;AuDesign Voice
 </h1>
 
+<p align="center">
+  <img src="docs/images/ui/listening.png" alt="AuDesign Voice — listening" width="32%" />
+  <img src="docs/images/ui/user.png"      alt="AuDesign Voice — user speaking" width="32%" />
+  <img src="docs/images/ui/agent.png"     alt="AuDesign Voice — agent speaking" width="32%" />
+</p>
+
 > A self-hosted, UAE-North–resident alternative to Azure's Voice Live API. Pluggable LLM. OpenAI / Azure OpenAI / Microsoft Foundry. Python + TypeScript SDKs. **[Full documentation →](https://saadmsft.github.io/audvoice-voice/)**
 
 [![CI](https://github.com/saadmsft/audvoice-voice/actions/workflows/ci.yml/badge.svg)](https://github.com/saadmsft/audvoice-voice/actions/workflows/ci.yml)

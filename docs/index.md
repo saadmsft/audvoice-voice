@@ -3,6 +3,16 @@
   AuDesign Voice — Documentation
 </h1>
 
+## Web demo
+
+<div class="grid cards" markdown>
+
+- ![Listening](images/ui/listening.png){ width="100%" }
+- ![User speaking](images/ui/user.png){ width="100%" }
+- ![Agent speaking](images/ui/agent.png){ width="100%" }
+
+</div>
+
 A self-hosted, UAE-resident alternative to Azure's Voice Live API. Plug it into any LLM-based application via WebSocket or via the official SDKs.
 
 ![UAE North architecture](diagrams/azure-architecture.png){ width="780" }
