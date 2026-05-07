@@ -1,4 +1,7 @@
-# AuDesign Voice
+<h1 align="center">
+  <img src="docs/assets/mark.png" alt="" width="56" align="center" />
+  &nbsp;AuDesign Voice
+</h1>
 
 > A self-hosted, UAE-North–resident alternative to Azure's Voice Live API. Pluggable LLM. OpenAI / Azure OpenAI / Microsoft Foundry. Python + TypeScript SDKs. **[Full documentation →](https://saadmsft.github.io/audvoice-voice/)**
 

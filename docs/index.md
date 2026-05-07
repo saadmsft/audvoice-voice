@@ -1,4 +1,7 @@
-# AuDesign Voice — Documentation
+<h1 style="display:flex;align-items:center;gap:.6rem;">
+  <img src="assets/mark.png" alt="" width="56" />
+  AuDesign Voice — Documentation
+</h1>
 
 A self-hosted, UAE-resident alternative to Azure's Voice Live API. Plug it into any LLM-based application via WebSocket or via the official SDKs.
 
