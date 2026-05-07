@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.local
+*.egg-info/
+dist/
+build/
+.coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+node_modules/
+.DS_Store
+*.log
+
+# MkDocs build output
+_site/
+_site_test/
+
+# Generated diagrams source files
+docs/diagrams/*.dot
+
+# Local Azure config
+apps/orchestrator/.env

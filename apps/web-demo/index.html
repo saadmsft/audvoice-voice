@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>AuDesign Voice — demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+    button { padding: .6rem 1.2rem; font-size: 1rem; }
+    .row { display: flex; gap: .5rem; align-items: center; margin: 1rem 0; }
+    pre { background: #f4f4f4; padding: .75rem; border-radius: 6px; max-height: 320px; overflow: auto; }
+    input { padding: .4rem; font-size: .95rem; }
+    .pill { display: inline-block; padding: .2rem .6rem; border-radius: 999px; font-size: .8rem; background: #eee; }
+    .pill.live { background: #c8e6c9; }
+    .pill.speak { background: #ffcdd2; }
+  </style>
+</head>
+<body>
+  <h1>AuDesign Voice</h1>
+  <p>Browser demo — captures mic audio at 16 kHz, streams to the orchestrator, plays back synthesized PCM at 24 kHz.</p>
+  <div class="row">
+    <label>Server: <input id="server" value="http://127.0.0.1:8088" size="34"></label>
+    <label>API key: <input id="apiKey" value="devkey"></label>
+  </div>
+  <div class="row">
+    <button id="start">Start</button>
+    <button id="stop" disabled>Stop</button>
+    <span id="status" class="pill">idle</span>
+  </div>
+  <h3>Transcript</h3>
+  <pre id="transcript"></pre>
+  <h3>Events</h3>
+  <pre id="events"></pre>
+
+  <script type="module" src="./demo.js"></script>
+</body>
+</html>

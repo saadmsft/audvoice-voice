@@ -1,0 +1,41 @@
+[project]
+name = "audvoice-client"
+version = "0.1.0"
+description = "Python client SDK for AuDesign Voice — UAE-resident voice agent service"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["azure", "speech", "voice", "openai", "voice-live", "uae", "websocket", "agent"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+dependencies = [
+  "websockets>=13",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+mic = [
+  # Optional helper for capturing/playing PCM in scripts and CLI demos
+  "sounddevice>=0.4",
+  "numpy>=1.26",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-org/audvoice"
+Documentation = "https://github.com/your-org/audvoice/tree/main/docs"
+Issues = "https://github.com/your-org/audvoice/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["audvoice_client"]
